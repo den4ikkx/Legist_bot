@@ -7,12 +7,6 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
 
     # Главная кнопка во всю ширину
-    builder.row(
-        InlineKeyboardButton(
-            text="⚖️ Задать вопрос юристу",
-            callback_data="ask_lawyer",
-        )
-    )
 
     # Сетка функциональных разделов 2x2
     builder.row(
